@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.product_info_bg_color {
+    background: linear-gradient(130deg, rgba(63, 63, 63, 0.57) 37.33%, rgba(63, 63, 63, 0.00) 72.77%);
+}
+
+.product_info .text-wrapper .heading {
+    background: linear-gradient(180deg, #FFFFE7 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product_info_card {
+    background: #1F1F1FB5;
+}
+
+.product_info {
+    background: linear-gradient(130deg, rgba(63, 63, 63, 0.57) 37.33%, rgba(63, 63, 63, 0.00) 72.77%);
+}
+
+.product_card {
+    background-color: #3030307d;
+}
+
+.contact_us .heading {
+    background: linear-gradient(186deg, #EBEBEB 4.4%, rgba(255, 255, 255, 0.00) 121.4%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+}
